@@ -1,0 +1,42 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://s3-media2.fl.yelpcdn.com/bphoto/BWFjl_MC-_KxBQY32UOOlw/ls.jpg",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Welcome to Teacher Credit Union!",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "yes",
+      "text": "Please Select An Option",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "What's new",
+      "url": "https://www.google.com"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Follow us",
+      "url": "https://www.twitter.com"
+    }
+
+  ]
+}

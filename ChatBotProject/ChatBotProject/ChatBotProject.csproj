@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+=======
+    <PackageReference Include="AdaptiveCards" Version="1.2.2" />
+    <PackageReference Include="BotMessageRouting" Version="2.0.2-alpha" />
+>>>>>>> fe74788eac1c5ee18f91e8301456ad61e84c9438
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Language" Version="2.2.0" />
     <PackageReference Include="Microsoft.Bot.Builder" Version="4.5.2" />
@@ -21,12 +25,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Cards\" />
-      <Folder Include="Dialogs\" />
-      <Folder Include="AiIntegration\" />
-    </ItemGroup>
 
     <ItemGroup>
       <Compile Update="Properties\Resources.Designer.cs">
